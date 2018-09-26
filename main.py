@@ -51,3 +51,31 @@ def display_board(board):
     print('t', '-----')
     print('\n\t', board[6], '|', board[7], '|', board[8], '\n')
     print('t', '-----')
+
+
+def legal_moves(board):
+    """Create list of legal moves"""
+    moves = []
+    for square in range(NUM_SQUARES):
+        if board[square] == EMPTY:
+
+            moves.append(square)
+            return moves
+
+
+
+def winner(board):
+    """Determine the winner of the game."""
+    WAYS_TO_WIN = ((0,1,2),
+                   (3,4,5),
+                   (6,7,8),
+                   (0,3,6),
+                   (1,4,7),
+                   (2,5,8),
+                   (0,4,8),
+                   (2,4,6))
+
+    for row in WAYS_TO_WIN:
+        if board[row[0]] == board[row[1]] == board[row[2]] != EMPTY:
+            winner = board[row[0]]
+            return winner

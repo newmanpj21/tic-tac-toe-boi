@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7c142bd-60b8-4d78-8fe0-f9d66a3bfc96" name="Default Changelist" comment="" />
+    <list default="true" id="84408353-9919-4139-8f32-164313c99adf" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,9 +9,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="1865103721">
+    <session id="2011982340">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -28,12 +29,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="883" />
+          <entry key="py" value="409" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="883" />
+          <entry key="Python" value="409" />
         </counts>
       </usages-collector>
     </session>
@@ -43,13 +44,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="764">
-              <caret line="51" column="61" selection-start-line="51" selection-start-column="61" selection-end-line="51" selection-end-column="61" />
+            <state relative-caret-position="710">
+              <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
               <folding>
-                <marker date="1537901081188" expanded="true" signature="275:280" ph="..." />
-                <marker date="1537901081188" expanded="true" signature="454:459" ph="..." />
-                <marker date="1537901081188" expanded="true" signature="871:876" ph="..." />
-                <marker date="1537901081188" expanded="true" signature="1030:1035" ph="..." />
+                <marker date="1537987487895" expanded="true" signature="1348:1353" ph="..." />
+                <marker date="1537987487895" expanded="true" signature="1554:1824" ph="..." />
               </folding>
             </state>
           </provider>
@@ -64,7 +63,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="654" />
     <option name="height" value="991" />
@@ -74,22 +73,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Tic-Tac-Toe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Tic-Tac-Toe" type="462c0819:PsiDirectoryNode" />
+              <item name="pycharm tictactoe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pycharm tictactoe" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -108,17 +104,16 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a7c142bd-60b8-4d78-8fe0-f9d66a3bfc96" name="Default Changelist" comment="" />
-      <created>1537899724535</created>
+      <changelist id="84408353-9919-4139-8f32-164313c99adf" name="Default Changelist" comment="" />
+      <created>1537986748397</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1537899724535</updated>
+      <updated>1537986748397</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -147,13 +142,11 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="764">
-          <caret line="51" column="61" selection-start-line="51" selection-start-column="61" selection-end-line="51" selection-end-column="61" />
+        <state relative-caret-position="710">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
           <folding>
-            <marker date="1537901081188" expanded="true" signature="275:280" ph="..." />
-            <marker date="1537901081188" expanded="true" signature="454:459" ph="..." />
-            <marker date="1537901081188" expanded="true" signature="871:876" ph="..." />
-            <marker date="1537901081188" expanded="true" signature="1030:1035" ph="..." />
+            <marker date="1537987487895" expanded="true" signature="1348:1353" ph="..." />
+            <marker date="1537987487895" expanded="true" signature="1554:1824" ph="..." />
           </folding>
         </state>
       </provider>
