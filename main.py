@@ -79,3 +79,38 @@ def winner(board):
         if board[row[0]] == board[row[1]] == board[row[2]] != EMPTY:
             winner = board[row[0]]
             return winner
+        if EMPTY not in board:
+            return TIE
+        return None
+
+
+def human_move(board, human):
+    """Get human move."""
+    legal = legal_moves(board)
+    move = None
+    while move not in legal:
+        move = ask_number('Where will you move? (0 - 8): ', 0, NUM_SQUARES)
+        if move not in legal:
+            print('\nThat square is already occupied, foolish human, Choose andother.\n')
+        print('Fine...')
+        return move
+
+
+def computer_move(board, computer, human):
+    """Make computer move."""
+
+    # make a copy to work with since function will be changing list.
+    board = board[:]
+
+    # the best moves to have, in order
+    BEST_MOVES = (4, 0, 2, 6, 8, 1, 3, 5, 7)
+
+    print('I shall take square number',)
+
+    # if computer can win, take that move
+    for move in legal_moves(board):
+        board[move] = computer
+        if winner(board) == computer:
+            print move
+            return move
+        # done checking this move so,
